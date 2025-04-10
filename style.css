@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+  background-color: #573824;
+  background-image: url(assets/Página\ de\ receita.jpg) ;
+  background-size: cover; /* Vai cobrir toda a area visivel */
+  font-family: "Alice", ser;
+  line-height: 150%;
+  color: #573A37;
+  
+}
+
+#conteiner {
+  box-sizing: border-box; /*No padrao da caixa ela soma os paddings semprea adicionar isso, para tirar o padrao da caixa*/
+  border-radius: 24px;
+  width: 800px; /* Deixar sempre no max width para ela nao estrapolar o tamanho*/
+  padding: 24px;
+  background-color: #F0E8C2;
+  margin: 48px auto; /* alinha ao meio automaticamente */
+  
+}
+
+main {
+  padding: 24px;
+}
+
+#sobre {
+  padding: 24px;
+  width: 704px;
+  height: 192px;
+  box-sizing: border-box;
+}
+
+#sobre p + p {
+  margin-top: 12px;
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+#ingredientes {
+  padding: 24px;
+  width: 704px;
+  height: 376px;
+  box-sizing: border-box;
+}
+
+#modopreparo {
+  padding: 24px;
+  width: 704px;
+  height: 328px;
+ 
+}
+
+h1 {
+  margin-bottom: 4px;
+  line-height: 140%;
+  font-size: 40px;
+  color: #291B1A;
+}
+
+h2{
+  font-size: 24px;
+  color: #291B1A;
+  margin-bottom: 4px;
+  line-height: 150%;
+}
+
+p {
+  font-size: 16px;
+  color: #573A37;
+  line-height: 150%;
+}
+
+ul {
+  padding-left: 20px;
+  line-height: 150%;
+}
